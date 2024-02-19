@@ -16,11 +16,29 @@
   <body>
     <!-- Hrader Start -->
     <header class="bg-white shadow-md h-16 flex items-center">
-      <div class="container mx-auto flex justify-between">
+      <div class="container mx-auto flex justify-between overflow-hidden">
         <div class="">
-          <img src="./img/logo.jpg" alt="Company Logo" class="" />
+          <a
+            href=""
+            class="inline-block lg:hidden px-3 py-2 text-[#E21C70] text-lg hover:bg-[#FDF2F7] rounded-full duration-200"
+            ><i class="fa-solid fa-user"></i
+          ></a>
         </div>
         <div class="">
+          <img
+            src="./img/logo.jpg"
+            alt="Company Logo"
+            class="object-contain object-left"
+          />
+        </div>
+        <div class="">
+          <a
+            href=""
+            class="inline-block lg:hidden px-3 py-2 text-[#E21C70] text-lg hover:bg-[#FDF2F7] rounded-full duration-200"
+            ><i class="fa-solid fa-bag-shopping"></i
+          ></a>
+        </div>
+        <div class="hidden lg:block">
           <button
             class="bg-transparent text-sm font-semibold text-[#E21C70] border border-[#E21C70] px-4 py-1 rounded-md transform hover:scale-105 duration-200"
           >
@@ -49,42 +67,152 @@
     <!-- Hrader End -->
 
     <!-- Section 1 Start -->
-    <section class="bg-[#F7F7F7] h-[60vh]">
-      <div class="container mx-auto grid grid-cols-[50%_50%]">
-        <div class="h-[100%] flex flex-col items-center">
-          <h1 class="text-[40px] text-[#333333] leading-[50px] mb-[40px]">
-            It's the food and groceries you love, <br />
-            delivered
-          </h1>
-          <div class="w-[98%] bg-white py-3 px-6 rounded-[20px] relative">
-            <input
-              type="search"
-              placeholder="Street, Postal Code"
-              class="border border-[#bbb] outline-none pl-3 py-3 w-[85%] rounded-md"
+    <section class="bg-[#F7F7F7] h-[190px] md:h-[215px] lg:h-[60vh] px-[20px]">
+      <div class="container mx-auto block lg:grid grid-cols-[50%_50%]">
+        <div class="h-[100%] block lg:flex flex-col justify-center">
+          <div class="grid grid-cols-[40%_60%] md:grid-cols-2">
+            <h1
+              class="text-[18px] md:text-[24px] grid items-center lg:block lg:text-[40px] font-bold md:font-normal text-[#333333] leading-[22px] md:leading-[50px] mb-[40px]"
+            >
+              It's the food and groceries you love, <br />
+              delivered
+            </h1>
+            <img
+              class="block w-[100%] h-[190px] md:h-[215px] object-cover lg:hidden"
+              src="./img/panda.webp"
+              alt=""
             />
-            <span
-              class="absolute right-[150px] top-[25px] text-[16px] font-semibold text-[#E21C70] flex items-center"
-            >
-              <i class="text-[22px] mr-2 fa-solid fa-location-crosshairs"></i>
-              Locate me
-            </span>
-            <span
-              class="inline-block text-center text-[15px] font-semibold text-white py-3 px-4 bg-[#E21C70] rounded-md absolute right-[20px]"
-              >Find food</span
-            >
+          </div>
+          <div
+            class="block lg:grid grid-cols-[83%_90px] 2xl:grid-cols-[86%_90px] xl:grid-cols-[84%_90px] lg:grid-cols-[81%_90px] lg:pr-[32px] gap-x-3 bg-transparent lg:bg-white py-3 lg:pl-[24px] pr-[0px] pl-[0px] rounded-[20px] relative top-[-30px]"
+          >
+            <div class="border border-[#d1d1d1] rounded-md lg:mb-[0px] mb-4">
+              <input
+                type="text"
+                placeholder="Street, Postal Code"
+                class="outline-none pl-3 py-3 rounded-md w-[100%]"
+              />
+              <span
+                class="absolute right-[20px] lg:right-[160px] top-[25px] text-[16px] font-semibold text-[#E21C70] flex items-center"
+              >
+                <i class="text-[22px] mr-2 fa-solid fa-location-crosshairs"></i>
+                Locate me
+              </span>
+            </div>
+            <div class="">
+              <span
+                class="block lg:inline-block max-w-[100%] text-center text-[15px] font-semibold text-white py-3 px-3 bg-[#E21C70] rounded-md"
+                >Find food</span
+              >
+            </div>
           </div>
         </div>
-        <div
-          class="h-[60vh] bg-[url('../img/panda.webp')] bg-contain bg-no-repeat bg-right-bottom"
-        >
-          <!-- <img
-            class="w-[100%] object-cover object-bottom"
+        <div class="h-[60vh] flex justify-center">
+          <img
+            class="w-[100%] hidden lg:block object-contain object-bottom"
             src="./img/panda.webp"
             alt="Panda"
-          /> -->
+          />
         </div>
       </div>
     </section>
     <!-- Section 1 End -->
+
+    <!-- Section 2 Start  -->
+    <section class="">
+      <div class="container mx-auto">
+        <h1 class="text-[32px] mb-[30px]">
+          You prepare the food, we handle the rest
+        </h1>
+      </div>
+      <div
+        class="h-[400px] bg-[url('/img/shafe.webp')] bg-center bg-no-repeat bg-cover"
+      ></div>
+      <div class="container mx-auto relative top-[-150px]">
+        <div
+          class="w-[96%] mx-auto md:ml-[0] md:max-w-[645px] bg-white rounded-2xl shadow-lg px-[20px] py-[25px]"
+        >
+          <h1 class="text-[24px]">List your restaurant or shop on foodpanda</h1>
+          <p class="text-[16px] mb-[35px]">
+            Would you like millions of new customers to enjoy your amazing food
+            and groceries? So would we!
+          </p>
+          <p class="text-[16px] mb-[35px]">
+            It's simple: we list your menu and product lists online, help you
+            process orders, pick them up, and deliver them to hungry pandas – in
+            a heartbeat!
+          </p>
+          <p class="text-[16px] mb-[35px]">
+            Interested? Let's start our partnership today!
+          </p>
+          <button
+            class="inline-block px-[16px] py-[12px] rounded-md text-white font-semibold bg-[#E21C70] duration-200 transform hover:scale-105 hover:bg-[#C21760]"
+          >
+            Get started
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- Section 2 Start  -->
+
+    <!-- Section # Start -->
+    <section>
+      <div class="container mx-auto">
+        <h1 class="text-[20px] mb-[30px] w-[96%] mx-auto">
+          Find us in these cities and many more!
+        </h1>
+        <div class="grid 2xl:grid-cols-4 xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-x-3 gap-y-5">
+          <div class="relative w-[96%] mx-auto">
+            <div class="">
+              <img class="rounded-2xl block w-[100%]" src="./img/dhakaCity.webp" alt="" />
+            </div>
+            <button class="absolute bottom-3 left-3 bg-white inline-block py-2 px-4 rounded-xl">Dhaka</button>
+          </div>
+          <div class="relative w-[96%] mx-auto">
+            <div class="">
+              <img class="rounded-2xl block w-[100%]" src="./img/city5.webp" alt="" />
+            </div>
+            <button class="absolute bottom-3 left-3 bg-white inline-block py-2 px-4 rounded-xl">Barguna</button>
+          </div>
+          <div class="relative w-[96%] mx-auto">
+            <div class="">
+              <img class="rounded-2xl block w-[100%]" src="./img/city2.webp" alt="" />
+            </div>
+            <button class="absolute bottom-3 left-3 bg-white inline-block py-2 px-4 rounded-xl">Chittagong</button>
+          </div>
+          <div class="relative w-[96%] mx-auto">
+            <div class="">
+              <img class="rounded-2xl block w-[100%]" src="./img/city3.webp" alt="" />
+            </div>
+            <button class="absolute bottom-3 left-3 bg-white inline-block py-2 px-4 rounded-xl">Bagerhat</button>
+          </div>
+          <div class="relative w-[96%] mx-auto">
+            <div class="">
+              <img class="rounded-2xl block w-[100%]" src="./img/city4.webp" alt="" />
+            </div>
+            <button class="absolute bottom-3 left-3 bg-white inline-block py-2 px-4 rounded-xl">Bandarban</button>
+          </div>
+          <div class="relative w-[96%] mx-auto">
+            <div class="">
+              <img class="rounded-2xl block w-[100%]" src="./img/city6.webp" alt="" />
+            </div>
+            <button class="absolute bottom-3 left-3 bg-white inline-block py-2 px-4 rounded-xl">Barisal</button>
+          </div>
+          <div class="relative w-[96%] mx-auto">
+            <div class="">
+              <img class="rounded-2xl block w-[100%]" src="./img/dhakaCity.webp" alt="" />
+            </div>
+            <button class="absolute bottom-3 left-3 bg-white inline-block py-2 px-4 rounded-xl">Dhaka</button>
+          </div>
+          <div class="relative w-[96%] mx-auto">
+            <div class="">
+              <img class="rounded-2xl block w-[100%]" src="./img/city5.webp" alt="" />
+            </div>
+            <button class="absolute bottom-3 left-3 bg-white inline-block py-2 px-4 rounded-xl">Barguna</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section # Start -->
   </body>
 </html>
