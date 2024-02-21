@@ -15,14 +15,10 @@
   </head>
   <body>
     <!-- Hrader Start -->
-    <header class="bg-white shadow-md h-16 flex items-center">
-      <div class="container mx-auto flex justify-between lg:justify-normal overflow-hidden">
+    <header class="head">
+      <div class="head-main-content">
         <div>
-          <a
-            href=""
-            class="inline-block lg:hidden px-3 py-2 text-[#E21C70] text-lg hover:bg-[#FDF2F7] rounded-full duration-200"
-            ><i class="fa-solid fa-user"></i
-          ></a>
+          <a href="#" class="headbtn" ><i class="fa-solid fa-user"></i ></a>
         </div>
         <div class="lg:flex-1">
           <img
@@ -31,36 +27,18 @@
             class="object-contain object-left"
           />
         </div>
-        <div class="">
-          <a
-            href=""
-            class="inline-block lg:hidden px-3 py-2 text-[#E21C70] text-lg hover:bg-[#FDF2F7] rounded-full duration-200"
-            ><i class="fa-solid fa-bag-shopping"></i
-          ></a>
+        <div>
+          <a href="#" class="headbtn" ><i class="fa-solid fa-bag-shopping"></i></a>
         </div>
         <div class="hidden lg:block">
-          <button
-            class="bg-transparent text-sm font-semibold text-[#E21C70] border border-[#E21C70] px-4 py-1 rounded-md transform hover:scale-105 duration-200"
-          >
-            Login
-          </button>
-          <button
-            class="bg-[#E21C70] text-sm font-semibold text-white px-4 py-1 rounded-md border border-[#E21C70] mx-5 hover:bg-[#C21760] transform hover:scale-105 duration-200"
-          >
-            Sign up
-          </button>
-          <span
-            class="mr-10 px-3 py-2 hover:bg-[#FDF2F7] duration-200 rounded-md cursor-pointer"
-          >
+          <button class="bg-transparent text-[#E21C70] head_btn1">Login </button>
+          <button class="bg-[#E21C70] text-white head_btn1 ml-3">Sign up</button>
+          <span class="mr-10 px-3 py-2 hover:bg-[#FDF2F7] duration-200 rounded-md cursor-pointer">
             <i class="fa-solid fa-globe"></i>
             EN
             <i class="text-[#E21C70] fa-solid fa-chevron-down"></i>
           </span>
-          <a
-            href=""
-            class="inline-block px-3 py-2 text-[#E21C70] text-lg hover:bg-[#FDF2F7] rounded-full duration-200"
-            ><i class="fa-solid fa-bag-shopping"></i
-          ></a>
+          <a href="" class="inline-block px-3 py-2 text-[#E21C70] text-lg hover:bg-[#FDF2F7] rounded-full  duration-200"><i class="fa-solid fa-bag-shopping"></i></a>
         </div>
       </div>
     </header>
@@ -109,7 +87,7 @@
         </div>
         <div class="h-[610px] flex justify-center">
           <img
-            class="w-[100%] h-[100%] hidden md:block object-cover object-left"
+            class="w-[100%] h-[100%] hidden lg:block object-cover object-left"
             src="./img/panda.webp"
             alt="Panda"
           />
@@ -121,16 +99,16 @@
     <!-- Section 2 Start  -->
     <section class="lg:mt-[100px] mt-[135px]">
       <div class="container mx-auto">
-        <h1 class="md:w-[100%] w-[92%] mx-auto text-[32px] mb-[30px]">
+        <h1 class="md:w-[100%] w-[92%] mx-auto text-[32px] px-[20px] mb-[30px]">
           You prepare the food, we handle the rest
         </h1>
       </div>
       <div
-        class="h-[400px] bg-[url('img/bg1.jpg')] bg-center bg-no-repeat bg-cover"
+        class="h-[400px] bg-[url('/img/bg1.jpg')] bg-center bg-no-repeat bg-cover"
       ></div>
       <div class="container mx-auto relative top-[-150px] px-[20px] md:px-[0px]">
         <div
-          class="w-[96%] mx-auto md:ml-[0] md:max-w-[645px] bg-white rounded-2xl shadow-lg px-[20px] py-[25px]"
+          class="w-[96%] mx-auto md:ml-[0] md:max-w-[645px] bg-white rounded-2xl shadow-lg px-[20px] py-[25px]
         >
           <h1 class="text-[24px]">List your restaurant or shop on foodpanda</h1>
           <p class="text-[16px] mb-[35px]">
@@ -241,11 +219,11 @@
     <!-- Section 5 Start -->
     <section class="pt-[90px]">
         <div class="container mx-auto">
-            <h1 class="text-[24px] md:text-[32px] font-semibold mb-[30px] w-[96%] md:w-[100%] mx-auto px-[20px] md:px-[0px]">Take your office out to lunch</h1>
+            <h1 class="text-[24px] md:text-[32px] font-semibold mb-[30px] w-[96%] md:w-[100%] mx-auto px-[20px]">Take your office out to lunch</h1>
         </div>
-        <div class="h-[520px] lg:h-[450px] bg-[url('img/bg2.jpg')] bg-center bg-no-repeat bg-cover"></div>
+        <div class="h-[520px] lg:h-[450px] bg-[url('/img/bg2.jpg')] bg-center bg-no-repeat bg-cover"></div>
         <div class="container mx-auto">
-          <div class="md:w-[600px] xl:w-[760px] w-[96%] mx-auto sm:ml-0 bg-[#ffffff] rounded-xl shadow-xl px-[30px] py-[30px] relative top-[-90px]">
+          <div class="md:w-[600px] xl:w-[760px] w-[96%] mx-auto sm:ml-[20px] bg-[#ffffff] rounded-xl shadow-xl px-[30px] py-[30px] relative top-[-90px]">
             <h2 class="text-[16px] md:text-[24px] font-semibold mb-4">foodpanda for business</h2>
           <p class="text-14px md:text-[16px] font-semibold mb-[20px]">Order lunch or fuel for work-from-home, late nights in the office, corporate events, client meetings, and much more.</p>
           <button class="inline-block px-[16px] py-[12px] rounded-md text-white font-semibold bg-[#E21C70] duration-200 transform hover:scale-105 hover:bg-[#C21760]">Get started</button>
@@ -257,7 +235,7 @@
     <!-- Section 6 Start -->
     <section class="mb-[100px]">
         <div class="container mx-auto">
-            <div class="w-[96%] mx-auto px-2 md:px-[0px] md:w-[100%]">
+            <div class="w-[96%] mx-auto px-[20px] md:w-[100%]">
               <h1 class="text-[18px] font-bold mb-7 text-[#333]">Order food from the best restaurants and shops with foodpanda Bangladesh</h1>
               <p class="text-[16px] font-semibold mb-4 text-[#767676]">
                 Are you hungry? Did you have a long and stressful day? Interested in getting a cheesy pizza delivered to your office or looking to avoid the weekly shop? Then foodpanda Bangladesh is the right destination for you! foodpanda offers you a long and detailed list of the best restaurants and shops near you to help make your everyday easier. Our online food delivery service has it all, whether you fancy a juicy burger from Takeout, fresh sushi from Samdado or peri peri chicken from Nando's, foodpanda Bangladesh has over 2000 restaurants available from Dhaka to Chittagong through to Sylhet. Did you know you can order your groceries and more from foodpanda, too? Check out foodpanda shops for favourite partners like Unimart, Suborno, Shwapno, Bengal Meat, and much more. Sit back and relax – let foodpanda Bangladesh take the pressure off your shoulders.
@@ -269,7 +247,7 @@
     <!-- Section 6 End -->
 
     <!-- Section 7 Start -->
-    <section class="pb-20">
+    <section class="pb-20 px-[20px]">
         <div class="container mx-auto md:px-[0px] px-[20px]">
             <div class="py-[15px] border-t-[1px] border-b-[1px] mb-8 w-[96%] mx-auto md:w-[100%] block md:flex justify-between">
               <div class="relative before:relative md:before:absolute before:content-normal before:w-[1px] before:h-[45px] before:bg-[#000] before:left-[220px] before:top-[8px]">
@@ -283,7 +261,7 @@
             </div>
         </div>
         <!--  -->
-        <div class="container mx-auto px-20px md:px-0 pb-[32px] border-b-[1px] mb-4">
+        <div class="container mx-auto px-[20px] md:px-0 pb-[32px] border-b-[1px] mb-4">
             <button class="block lg:hidden w-[50%] ring-2 ring-[#E21B70] rounded mx-auto py-3 mb-4 text-[#E21B70] hover:bg-[#fdf2f7] duration-150 hover:ring-transparent hover:shadow-md">বাংলা</button>
             <div class="block text-center px-20px space-y-2 md:space-y-0 md:px-0 md:text-left md:grid md:grid-cols-[23%_23%_23%_23%] md:justify-between">
                 <div class="text-[#767676] hidden md:block my-3">© 2024 foodpanda</div>
@@ -318,16 +296,16 @@
             </div>
         </div>
         <div class="container mx-auto md:px-[0px]  px-[20px] flex flex-wrap">
-          <a class="text-[#767676] inline-block mx-1" href="#">Myanmar<span class="inline-block ml-4 mr-2 ">|</span></a>
-          <a class="text-[#767676] inline-block mx-1" href="">Laos<span class="inline-block ml-4 mr-2 ">|</span></a>
-          <a class="text-[#767676] inline-block mx-1" href="">Hong Kong<span class="inline-block ml-4 mr-2 ">|</span></a>
-          <a class="text-[#767676] inline-block mx-1" href="">Pakistan<span class="inline-block ml-4 mr-2 ">|</span></a>
-          <a class="text-[#767676] inline-block mx-1" href="">Singapore<span class="inline-block ml-4 mr-2 ">|</span></a>
-          <a class="text-[#767676] inline-block mx-1" href="">Malaysia<span class="inline-block ml-4 mr-2 ">|</span></a>
-          <a class="text-[#767676] inline-block mx-1" href="">Philippines<span class="inline-block ml-4 mr-2 ">|</span></a>
-          <a class="text-[#767676] inline-block mx-1" href="">Thailand<span class="inline-block ml-4 mr-2 ">|</span></a>
-          <a class="text-[#767676] inline-block mx-1" href="">Taiwan<span class="inline-block ml-4 mr-2 ">|</span></a>
-          <a class="text-[#767676] inline-block mx-1" href="">Cambodia</a>
+          <a class="text-[#767676] inline-block mx-1 hover:text-[#E21B70]" href="#">Myanmar<span class="inline-block ml-4 mr-2 ">|</span></a>
+          <a class="text-[#767676] inline-block mx-1 hover:text-[#E21B70]" href="">Laos<span class="inline-block ml-4 mr-2 ">|</span></a>
+          <a class="text-[#767676] inline-block mx-1 hover:text-[#E21B70]" href="">Hong Kong<span class="inline-block ml-4 mr-2 ">|</span></a>
+          <a class="text-[#767676] inline-block mx-1 hover:text-[#E21B70]" href="">Pakistan<span class="inline-block ml-4 mr-2 ">|</span></a>
+          <a class="text-[#767676] inline-block mx-1 hover:text-[#E21B70]" href="">Singapore<span class="inline-block ml-4 mr-2 ">|</span></a>
+          <a class="text-[#767676] inline-block mx-1 hover:text-[#E21B70]" href="">Malaysia<span class="inline-block ml-4 mr-2 ">|</span></a>
+          <a class="text-[#767676] inline-block mx-1 hover:text-[#E21B70]" href="">Philippines<span class="inline-block ml-4 mr-2 ">|</span></a>
+          <a class="text-[#767676] inline-block mx-1 hover:text-[#E21B70]" href="">Thailand<span class="inline-block ml-4 mr-2 ">|</span></a>
+          <a class="text-[#767676] inline-block mx-1 hover:text-[#E21B70]" href="">Taiwan<span class="inline-block ml-4 mr-2 ">|</span></a>
+          <a class="text-[#767676] inline-block mx-1 hover:text-[#E21B70]" href="">Cambodia</a>
       </div>
     </section>
     <!-- Section 7 End -->
