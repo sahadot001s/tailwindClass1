@@ -1018,16 +1018,12 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\/img\/bg2\.jpg\'\)\] {
+.bg-btmimg {
   background-image: url('/img/bg2.jpg');
 }
 
 .bg-topimg {
   background-image: url('/img/bg1.jpg');
-}
-
-.bg-btmimg {
-  background-image: url('/img/bg2.jpg');
 }
 
 .bg-cover {
@@ -1443,8 +1439,8 @@ video {
     margin-left: 20px;
   }
 
-  .sm\:grid-cols-1 {
-    grid-template-columns: repeat(1, minmax(0, 1fr));
+  .sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
